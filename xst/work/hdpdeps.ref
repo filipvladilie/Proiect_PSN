@@ -1,0 +1,15 @@
+V3 7
+FL C:/My_Designs/cevacelalfa/COUNTER.vhd 2019/05/18.14:57:04 P.20131013
+EN work/COUNTER 1558182137 FL C:/My_Designs/cevacelalfa/COUNTER.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/COUNTER/Behavioral 1558182138 \
+      FL C:/My_Designs/cevacelalfa/COUNTER.vhd EN work/COUNTER 1558182137
+FL C:/My_Designs/proiecct/projectus/src/rom_cuvinte.vhd 2019/05/18.15:22:15 P.20131013
+EN work/ROM_CUVINTE 1558182139 \
+      FL C:/My_Designs/proiecct/projectus/src/rom_cuvinte.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/ROM_CUVINTE/BEH 1558182140 \
+      FL C:/My_Designs/proiecct/projectus/src/rom_cuvinte.vhd EN work/ROM_CUVINTE 1558182139 \
+      CP COUNTER

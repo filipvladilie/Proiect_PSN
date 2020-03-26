@@ -1,0 +1,5 @@
+set -tmpdir "C:/My_Designs/cevacelalfa/xst/projnav.tmp"
+set -xsthdpdir "C:/My_Designs/cevacelalfa/xst"
+elaborate
+-ifn COUNTER.prj
+-ifmt mixed

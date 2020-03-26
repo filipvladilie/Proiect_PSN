@@ -1,0 +1,2 @@
+
+	Acesta este un proiect facut in anul 1 semestrul 2, la ,materia proiectarea sistemelor numerice si are ca si scop proiectarea unor animatii pe un display 7 segmente , sper ca am ales varianta corecta , am avut mai multe versiuni

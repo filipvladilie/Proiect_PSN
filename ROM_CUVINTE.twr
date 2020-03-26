@@ -1,0 +1,122 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr
+ROM_CUVINTE.pcf -ucf UCF1.ucf
+
+Design file:              ROM_CUVINTE.ncd
+Physical constraint file: ROM_CUVINTE.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |    1.720(R)|      SLOW  |   -0.182(R)|      SLOW  |CLK_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+ANOD<0>     |        11.655(R)|      SLOW  |         5.322(R)|      FAST  |CLK_BUFGP         |   0.000|
+ANOD<1>     |        11.653(R)|      SLOW  |         5.070(R)|      FAST  |CLK_BUFGP         |   0.000|
+ANOD<2>     |        11.528(R)|      SLOW  |         5.190(R)|      FAST  |CLK_BUFGP         |   0.000|
+ANOD<3>     |        11.908(R)|      SLOW  |         5.308(R)|      FAST  |CLK_BUFGP         |   0.000|
+CATOD<0>    |        11.877(R)|      SLOW  |         5.554(R)|      FAST  |CLK_BUFGP         |   0.000|
+CATOD<1>    |        11.368(R)|      SLOW  |         5.512(R)|      FAST  |CLK_BUFGP         |   0.000|
+CATOD<2>    |        11.399(R)|      SLOW  |         5.542(R)|      FAST  |CLK_BUFGP         |   0.000|
+CATOD<3>    |        11.571(R)|      SLOW  |         5.530(R)|      FAST  |CLK_BUFGP         |   0.000|
+CATOD<4>    |        12.181(R)|      SLOW  |         5.312(R)|      FAST  |CLK_BUFGP         |   0.000|
+CATOD<5>    |        12.159(R)|      SLOW  |         5.538(R)|      FAST  |CLK_BUFGP         |   0.000|
+CATOD<6>    |        11.739(R)|      SLOW  |         5.579(R)|      FAST  |CLK_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.395|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SEL<0>         |ANOD<0>        |   10.801|
+SEL<0>         |ANOD<1>        |   10.799|
+SEL<0>         |ANOD<2>        |   10.674|
+SEL<0>         |ANOD<3>        |   11.054|
+SEL<0>         |CATOD<0>       |   11.023|
+SEL<0>         |CATOD<1>       |   10.514|
+SEL<0>         |CATOD<2>       |   10.545|
+SEL<0>         |CATOD<3>       |   10.717|
+SEL<0>         |CATOD<4>       |   10.301|
+SEL<0>         |CATOD<5>       |   11.305|
+SEL<0>         |CATOD<6>       |   10.785|
+SEL<1>         |ANOD<0>        |   11.202|
+SEL<1>         |ANOD<1>        |   11.200|
+SEL<1>         |ANOD<2>        |   11.075|
+SEL<1>         |ANOD<3>        |   11.455|
+SEL<1>         |CATOD<0>       |   11.424|
+SEL<1>         |CATOD<1>       |   10.915|
+SEL<1>         |CATOD<2>       |   10.946|
+SEL<1>         |CATOD<3>       |   11.118|
+SEL<1>         |CATOD<4>       |   10.790|
+SEL<1>         |CATOD<5>       |   11.706|
+SEL<1>         |CATOD<6>       |   11.186|
+SEL<2>         |CATOD<0>       |   10.232|
+SEL<2>         |CATOD<1>       |    8.541|
+SEL<2>         |CATOD<2>       |    8.572|
+SEL<2>         |CATOD<3>       |    9.205|
+SEL<2>         |CATOD<4>       |   10.732|
+SEL<2>         |CATOD<5>       |   10.688|
+SEL<2>         |CATOD<6>       |    9.124|
+SEL<3>         |CATOD<0>       |    8.674|
+SEL<3>         |CATOD<1>       |    8.944|
+SEL<3>         |CATOD<2>       |    8.975|
+SEL<3>         |CATOD<3>       |    9.458|
+SEL<3>         |CATOD<4>       |   10.626|
+SEL<3>         |CATOD<5>       |   10.582|
+SEL<3>         |CATOD<6>       |    9.843|
+---------------+---------------+---------+
+
+
+Analysis completed Mon May 20 19:06:34 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4576 MB
+
+
+

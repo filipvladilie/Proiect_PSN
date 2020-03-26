@@ -1,0 +1,3 @@
+vhdl work "COUNTER2.vhd"
+vhdl work "COUNTER.vhd"
+vhdl work "../proiecct/projectus/src/rom_cuvinte.vhd"

@@ -1,0 +1,618 @@
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Iliuta-PC/Downloads/Nexys2_1200General.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc3s1200e-fg320-5 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+xst -intstyle ise -ifn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.xst" -ofn "C:/My_Designs/cevacelalfa/ROM_CUVINTE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF1.ucf -p xc6slx16-csg324-3 ROM_CUVINTE.ngc ROM_CUVINTE.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ROM_CUVINTE_map.ncd ROM_CUVINTE.ngd ROM_CUVINTE.pcf 
+par -w -intstyle ise -ol high -mt off ROM_CUVINTE_map.ncd ROM_CUVINTE.ncd ROM_CUVINTE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ROM_CUVINTE.twx ROM_CUVINTE.ncd -o ROM_CUVINTE.twr ROM_CUVINTE.pcf -ucf UCF1.ucf 
+bitgen -intstyle ise -f ROM_CUVINTE.ut ROM_CUVINTE.ncd 

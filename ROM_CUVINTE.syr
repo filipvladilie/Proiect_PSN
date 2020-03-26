@@ -1,0 +1,572 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: ROM_CUVINTE.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ROM_CUVINTE.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ROM_CUVINTE"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : ROM_CUVINTE
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\My_Designs\cevacelalfa\COUNTER2.vhd" into library work
+Parsing entity <COUNTER2>.
+Parsing architecture <Behavioral> of entity <counter2>.
+Parsing VHDL file "C:\My_Designs\cevacelalfa\COUNTER.vhd" into library work
+Parsing entity <COUNTER>.
+Parsing architecture <Behavioral> of entity <counter>.
+Parsing VHDL file "C:\My_Designs\proiecct\projectus\src\rom_cuvinte.vhd" into library work
+Parsing entity <ROM_CUVINTE>.
+Parsing architecture <BEH> of entity <rom_cuvinte>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <ROM_CUVINTE> (architecture <BEH>) from library <work>.
+
+Elaborating entity <COUNTER> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <COUNTER2> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "C:\My_Designs\proiecct\projectus\src\rom_cuvinte.vhd" Line 830. Case statement is complete. others clause is never selected
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ROM_CUVINTE>.
+    Related source file is "C:\My_Designs\proiecct\projectus\src\rom_cuvinte.vhd".
+    Found 27-bit register for signal <refresh_counter2>.
+    Found 20-bit register for signal <refresh_counter>.
+    Found 20-bit adder for signal <refresh_counter[19]_GND_6_o_add_0_OUT> created at line 188.
+    Found 27-bit adder for signal <refresh_counter2[26]_GND_6_o_add_1_OUT> created at line 189.
+    Found 4x116-bit Read Only RAM for signal <_n0121>
+    Found 4x32-bit Read Only RAM for signal <_n0126>
+    Found 7-bit 16-to-1 multiplexer for signal <CATOD> created at line 200.
+    Summary:
+	inferred   2 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  47 D-type flip-flop(s).
+	inferred  41 Multiplexer(s).
+Unit <ROM_CUVINTE> synthesized.
+
+Synthesizing Unit <COUNTER>.
+    Related source file is "C:\My_Designs\cevacelalfa\COUNTER.vhd".
+    Found 32-bit register for signal <counter_int>.
+    Found 1-bit register for signal <TEMP2>.
+    Found 1-bit register for signal <TEMP3>.
+    Found 1-bit register for signal <TEMP4>.
+    Found 1-bit register for signal <TEMP>.
+    Found 32-bit register for signal <counter>.
+    Found 32-bit adder for signal <counter_int[31]_GND_7_o_add_1_OUT> created at line 57.
+    Found 32-bit adder for signal <counter[31]_GND_7_o_add_8_OUT> created at line 74.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  68 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <COUNTER> synthesized.
+
+Synthesizing Unit <COUNTER2>.
+    Related source file is "C:\My_Designs\cevacelalfa\COUNTER2.vhd".
+    Found 32-bit register for signal <counter>.
+    Found 1-bit register for signal <TEMP>.
+    Found 32-bit adder for signal <counter[31]_GND_8_o_add_1_OUT> created at line 51.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+Unit <COUNTER2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 4x116-bit single-port Read Only RAM                   : 1
+ 4x32-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 5
+ 20-bit adder                                          : 1
+ 27-bit adder                                          : 1
+ 32-bit adder                                          : 3
+# Registers                                            : 10
+ 1-bit register                                        : 5
+ 20-bit register                                       : 1
+ 27-bit register                                       : 1
+ 32-bit register                                       : 3
+# Multiplexers                                         : 42
+ 32-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 20
+ 7-bit 16-to-1 multiplexer                             : 1
+ 7-bit 2-to-1 multiplexer                              : 20
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <COUNTER>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+The following registers are absorbed into counter <counter_int>: 1 register on signal <counter_int>.
+Unit <COUNTER> synthesized (advanced).
+
+Synthesizing (advanced) Unit <COUNTER2>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <COUNTER2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ROM_CUVINTE>.
+The following registers are absorbed into counter <refresh_counter2>: 1 register on signal <refresh_counter2>.
+The following registers are absorbed into counter <refresh_counter>: 1 register on signal <refresh_counter>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0126> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 32-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <refresh_counter2> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0121> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 116-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <refresh_counter> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <ROM_CUVINTE> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 4x116-bit single-port distributed Read Only RAM       : 1
+ 4x32-bit single-port distributed Read Only RAM        : 1
+# Counters                                             : 5
+ 20-bit up counter                                     : 1
+ 27-bit up counter                                     : 1
+ 32-bit up counter                                     : 3
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+# Multiplexers                                         : 41
+ 4-bit 2-to-1 multiplexer                              : 20
+ 7-bit 16-to-1 multiplexer                             : 1
+ 7-bit 2-to-1 multiplexer                              : 20
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2146 - In block <ROM_CUVINTE>, Counter <refresh_counter2> <refresh_counter> are equivalent, XST will keep only <refresh_counter2>.
+
+Optimizing unit <ROM_CUVINTE> ...
+WARNING:Xst:1293 - FF/Latch <LEDURI/counter_int_12> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_13> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_14> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_15> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_16> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_17> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_18> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_19> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_20> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_21> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_22> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_23> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_24> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_25> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_26> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_27> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_28> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_29> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_30> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_31> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI2/counter_26> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI2/counter_27> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI2/counter_28> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI2/counter_29> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI2/counter_30> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI2/counter_31> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_26> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_27> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_28> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_29> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_30> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_31> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_3> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_4> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_5> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_6> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_7> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_8> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_9> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_10> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <LEDURI/counter_int_11> has a constant value of 0 in block <ROM_CUVINTE>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_10> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_10> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_11> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_11> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_12> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_12> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_13> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_13> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_14> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_14> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_15> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_15> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_20> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_20> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_16> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_16> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_21> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_21> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_17> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_17> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_22> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_22> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_18> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_18> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_23> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_23> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_19> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_19> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_24> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_24> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_25> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_25> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/TEMP> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_int_0> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_0> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_0> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_1> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_1> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_2> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_2> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_3> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_3> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_4> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_4> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_5> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_5> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_6> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_6> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_7> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_7> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_8> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_8> 
+INFO:Xst:2261 - The FF/Latch <LEDURI2/counter_9> in Unit <ROM_CUVINTE> is equivalent to the following FF/Latch, which will be removed : <LEDURI/counter_9> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ROM_CUVINTE, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 60
+ Flip-Flops                                            : 60
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ROM_CUVINTE.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 271
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 53
+#      LUT2                        : 29
+#      LUT3                        : 7
+#      LUT4                        : 11
+#      LUT5                        : 15
+#      LUT6                        : 37
+#      MUXCY                       : 53
+#      MUXF7                       : 6
+#      VCC                         : 1
+#      XORCY                       : 55
+# FlipFlops/Latches                : 60
+#      FD                          : 32
+#      FDC                         : 27
+#      FDE                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 5
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              60  out of  18224     0%  
+ Number of Slice LUTs:                  155  out of   9112     1%  
+    Number used as Logic:               155  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    155
+   Number with an unused Flip Flop:      95  out of    155    61%  
+   Number with an unused LUT:             0  out of    155     0%  
+   Number of fully used LUT-FF pairs:    60  out of    155    38%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 60    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.144ns (Maximum Frequency: 241.324MHz)
+   Minimum input arrival time before clock: 2.872ns
+   Maximum output required time after clock: 8.466ns
+   Maximum combinational path delay: 9.714ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.144ns (frequency: 241.324MHz)
+  Total number of paths / destination ports: 1629 / 61
+-------------------------------------------------------------------------
+Delay:               4.144ns (Levels of Logic = 3)
+  Source:            LEDURI2/counter_8 (FF)
+  Destination:       LEDURI/counter_int_1 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: LEDURI2/counter_8 to LEDURI/counter_int_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.981  LEDURI2/counter_8 (LEDURI2/counter_8)
+     LUT6:I0->O            7   0.203   1.021  LEDURI2/GND_8_o_counter[31]_equal_1_o<31>4 (LEDURI/GND_7_o_counter[31]_equal_1_o<31>3)
+     LUT6:I2->O           15   0.203   0.982  LEDURI2/GND_8_o_counter[31]_equal_1_o<31>5 (LEDURI2/GND_8_o_counter[31]_equal_1_o)
+     LUT3:I2->O            1   0.205   0.000  LEDURI/counter_int_1_rstpot (LEDURI/counter_int_1_rstpot)
+     FD:D                      0.102          LEDURI/counter_int_1
+    ----------------------------------------
+    Total                      4.144ns (1.160ns logic, 2.984ns route)
+                                       (28.0% logic, 72.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 27 / 27
+-------------------------------------------------------------------------
+Offset:              2.872ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       refresh_counter2_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: reset to refresh_counter2_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            27   1.222   1.220  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          refresh_counter2_0
+    ----------------------------------------
+    Total                      2.872ns (1.652ns logic, 1.220ns route)
+                                       (57.5% logic, 42.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 276 / 11
+-------------------------------------------------------------------------
+Offset:              8.466ns (Levels of Logic = 5)
+  Source:            LEDURI/TEMP (FF)
+  Destination:       CATOD<5> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: LEDURI/TEMP to CATOD<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              12   0.447   0.909  LEDURI/TEMP (LEDURI/TEMP)
+     LUT3:I2->O            6   0.205   1.109  Mmux_CATOD19431 (Mmux_CATOD1943)
+     LUT6:I0->O           11   0.203   1.227  Mmux_CATOD162 (Mmux_CATOD162)
+     LUT5:I0->O            1   0.203   0.808  Mmux_CATOD165 (Mmux_CATOD164)
+     LUT4:I1->O            1   0.205   0.579  Mmux_CATOD168 (CATOD_5_OBUF)
+     OBUF:I->O                 2.571          CATOD_5_OBUF (CATOD<5>)
+    ----------------------------------------
+    Total                      8.466ns (3.834ns logic, 4.632ns route)
+                                       (45.3% logic, 54.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 188 / 11
+-------------------------------------------------------------------------
+Delay:               9.714ns (Levels of Logic = 6)
+  Source:            SEL<1> (PAD)
+  Destination:       CATOD<5> (PAD)
+
+  Data Path: SEL<1> to CATOD<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            23   1.222   1.382  SEL_1_IBUF (SEL_1_IBUF)
+     LUT3:I0->O            6   0.205   1.109  Mmux_CATOD19431 (Mmux_CATOD1943)
+     LUT6:I0->O           11   0.203   1.227  Mmux_CATOD162 (Mmux_CATOD162)
+     LUT5:I0->O            1   0.203   0.808  Mmux_CATOD165 (Mmux_CATOD164)
+     LUT4:I1->O            1   0.205   0.579  Mmux_CATOD168 (CATOD_5_OBUF)
+     OBUF:I->O                 2.571          CATOD_5_OBUF (CATOD<5>)
+    ----------------------------------------
+    Total                      9.714ns (4.609ns logic, 5.105ns route)
+                                       (47.4% logic, 52.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.144|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.68 secs
+ 
+--> 
+
+Total memory usage is 4539264 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   41 (   0 filtered)
+Number of infos    :   30 (   0 filtered)
+

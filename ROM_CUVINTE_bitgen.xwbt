@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\My_Designs\cevacelalfa\ROM_CUVINTE.ncd
+OUTFILE=C:\My_Designs\cevacelalfa\ROM_CUVINTE.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\My_Designs\cevacelalfa
+LICENSE=WebPack
+USER_INFO=211735800_0_0_672
